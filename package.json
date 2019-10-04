@@ -3,7 +3,8 @@
   "version": "0.0.3",
   "description": "Hotjar tracking code injection.",
   "keywords": [
-    "ember-addon", "hotjar"
+    "ember-addon",
+    "hotjar"
   ],
   "license": "MIT",
   "author": "Donal Byrne",
