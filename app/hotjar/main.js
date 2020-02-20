@@ -29,7 +29,7 @@ function load(id, forceSSL, snippetVer) {
 if (config.hotjar && config.hotjar.id) {
 
   if ('enabled' in config.hotjar && ! config.hotjar.enabled) {
-    Ember.Logger.debug('Not running hotjar script, config.hotjar.enabled set to false');
+    console.debug('Not running hotjar script, config.hotjar.enabled set to false');
   } else {
     if (typeof FastBoot === 'undefined') {
       load(config.hotjar.id, !!config.hotjar.forceSSL, config.hotjar.snippetVersion);
